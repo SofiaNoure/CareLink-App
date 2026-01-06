@@ -82,5 +82,4 @@ All files are loaded at application startup and kept in memory during execution.
 
 ```bash
 mvn spring-boot:run
-The application will be available at:
-http://localhost:8080
+
