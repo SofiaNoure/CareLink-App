@@ -1,4 +1,4 @@
-# CareLink-App
+# CareLink
 Medical Appointment Management System
 
 ## Overview
