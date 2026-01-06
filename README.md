@@ -3,7 +3,7 @@ Medical Appointment Management System
 
 ## Overview
 
-CareLink (also referred to as **MediSync**) is a web-based medical appointment management system built with **Spring Boot** and **Thymeleaf**.  
+CareLink is a web-based medical appointment management system built with **Spring Boot** and **Thymeleaf**.  
 It enables patients to easily book medical appointments and allows doctors to efficiently manage their schedules through a structured and intuitive platform.
 
 The project follows a clean **Model–View–Controller (MVC)** architecture and focuses on clarity, maintainability, and well-defined business rules.  
