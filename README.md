@@ -54,10 +54,10 @@ Data is stored using **CSV files loaded into memory**, making the application li
 
 Appointments follow a clear and controlled lifecycle to ensure consistency:
 
-PENDING → CONFIRMED → COMPLETED
-↓
-RESCHEDULED
-↓
+PENDING → CONFIRMED → COMPLETED  
+↓  
+RESCHEDULED  
+↓  
 CANCELLED
 
 ### Business Rules
@@ -72,16 +72,16 @@ CANCELLED
 
 ## Architecture
 
-The application is structured using the **Model–View–Controller (MVC)** pattern:
+The application is structured using the **Model–View–Controller (MVC)** pattern.
 
 ### Model
 - Domain entities: `Doctor`, `Patient`, `Appointment`, `Specialty`
-- Business logic handled by a service layer
-- CSV-based repository for data access (in-memory)
+- Business logic handled by a dedicated service layer
+- CSV-based repository used as an in-memory data source
 
 ### View
 - Thymeleaf HTML templates
-- CSS and JavaScript for dynamic interaction
+- CSS and JavaScript for dynamic user interaction
 
 ### Controller
 - Spring MVC controllers handling HTTP requests
@@ -128,8 +128,7 @@ All files are loaded at application startup and kept in memory during execution.
 - Maven
 
 ### Run the Application
-
+The application will be available at:
+http://localhost:8080
 ```bash
 mvn spring-boot:run
-
-
